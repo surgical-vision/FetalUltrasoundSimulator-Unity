@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/TestScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/RL-rot.unity
+    guid: e3c1b7ff15b70c941810429d4c5bb7f5
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 129f8c8c8d11f76439bdd5ae2504512d,
+      type: 2}
