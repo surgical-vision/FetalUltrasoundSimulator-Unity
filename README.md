@@ -1,4 +1,4 @@
-# UltrasoundSimulator-Unity
+# Unity-based Fetal Ultrasound Simulator
 
 This repository contains the Unity-based simulator for the slicing of fetal brain ultrasound volumes and the annotation of standard planes using a joystick.
 
