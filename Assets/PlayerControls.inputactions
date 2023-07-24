@@ -1,0 +1,269 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Gameplay_3dmouse",
+            "id": "91353f47-c2f8-46d8-b3f3-e7c6c906bd19",
+            "actions": [
+                {
+                    "name": "ResetPlane",
+                    "type": "Button",
+                    "id": "0afdfbeb-ce0c-448b-abfb-49d85472858d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Button",
+                    "id": "9a9a41b4-34b7-4c0e-b83d-2d520738139f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "628f7c09-7789-4c46-923a-aa2c4a1acab1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ChangeMaterial",
+                    "type": "Button",
+                    "id": "d677e024-302b-4b94-8303-86cb68806e1b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TranslationOnly",
+                    "type": "Button",
+                    "id": "f0d8a5ee-10fa-47a2-bba9-4643953b7275",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RotationOnly",
+                    "type": "Button",
+                    "id": "6ba94b3b-9b74-4525-9952-a77d9c1a69bb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1dc00ed3-8420-4151-891b-bdcdc5f40b90",
+                    "path": "<HID::3Dconnexion SpaceMouse Pro MultiAxisController>/button13",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetPlane",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a39f9362-6daf-4e46-b749-91f74066b280",
+                    "path": "<HID::3Dconnexion SpaceMouse Pro MultiAxisController>/button14",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeMaterial",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f957bde-ef4b-4fd9-887d-2176fd36e6e0",
+                    "path": "<HID::3Dconnexion SpaceMouse Pro MultiAxisController>/button15",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TranslationOnly",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f93028a-78ba-4def-9171-49210d26b628",
+                    "path": "<HID::3Dconnexion SpaceMouse Pro MultiAxisController>/button16",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotationOnly",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bbaee6f2-43e6-41a5-93a4-fa1edd33f852",
+                    "path": "<HID::3Dconnexion SpaceMouse Pro MultiAxisController>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5ff79a3-1812-44c4-9c7f-d5ed30c3d675",
+                    "path": "<HID::3Dconnexion SpaceMouse Pro MultiAxisController>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Gameplay_joystick",
+            "id": "5e94fd2a-9b58-4b45-bdaf-afe35a159993",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "b1facdcc-c9e6-454c-b440-512e0bdc3040",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Button",
+                    "id": "ddcb5f08-f6bb-4d0d-b3dc-26abae543900",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "VertMov",
+                    "type": "Value",
+                    "id": "2fdfd377-c3b8-49b0-a89b-92a13d53d15f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ResetPlane",
+                    "type": "Button",
+                    "id": "523b7229-bd00-47fc-ace4-f187e4fd9dd9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ChangeMaterial",
+                    "type": "Button",
+                    "id": "e1f916e9-e9f8-4ca8-9ef8-56245d2f218e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TakeScreenshot",
+                    "type": "Button",
+                    "id": "570efc5e-c10d-4f9d-8b7a-bbfa1ed00934",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "SlideProbe",
+                    "type": "Button",
+                    "id": "98f5ee3e-3baf-47f9-a4cf-82761a03ecda",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ee788d5d-95c3-4b14-9898-6d69d2b75177",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c433e418-c7f5-4470-9d6b-91ea9d5ca014",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1e3922a-da31-4c66-aa20-2068dad38ed9",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VertMov",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae1a5ccc-4de2-41f4-9872-f31da63a1088",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetPlane",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4c8104df-ef15-4737-9b70-85804d94337f",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeMaterial",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "879906af-9d97-48c2-9b8b-529e5bf827ee",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TakeScreenshot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b197ac8f-4694-42a6-9a4c-88d0b34e5f34",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlideProbe",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

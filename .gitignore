@@ -10,11 +10,8 @@
 [Ww]andb/
 AcquiredData
 Assets/AssetStoreTools*
-Assets/Tests*
 Assets/Scenes*
-Assets/ML-Agents*
 Assets/NVIDIA/
-DataFiles
 [Uu]serSettings/
 wandb/
 results
