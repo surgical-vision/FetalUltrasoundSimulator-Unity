@@ -7,16 +7,9 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Ww]andb/
-AcquiredData
 Assets/AssetStoreTools*
-Assets/Scenes*
 Assets/NVIDIA/
 [Uu]serSettings/
-wandb/
-results
-ml-agents
-venv
 code/__pycache__
 *.txt
 
