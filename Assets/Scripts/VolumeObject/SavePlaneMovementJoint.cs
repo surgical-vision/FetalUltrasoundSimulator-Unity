@@ -19,25 +19,52 @@ namespace UnityVolumeRendering
 		private List<string[]> rowData = new List<string[]>();
 		private string filePath = "AcquiredData/Poses/poses_unity.csv";
 		private string imagePath = "AcquiredData";
+		
+		// // Phantom data
+		// private float initial_rot_x = 260f, initial_rot_y = 0f, initial_rot_z = -10f; 
+		// // private float final_rot_x = 280.1f, final_rot_y = 180f, final_rot_z = 10.1f; 
+		// private float final_rot_x = 280.1f, final_rot_y = 360f, final_rot_z = 10.1f; 
+		// private float update_rot_x = 5f, update_rot_y = 7.9f, update_rot_z = 5f;
+		// private float initial_pos_x = -0.01f, initial_pos_y = -0.005f, initial_pos_z = -0.3f; 
+		// private float final_pos_x = 0.011f, final_pos_y = 0.0051f, final_pos_z = 0.31f; 
+		// private float update_pos_x = 0.01f, update_pos_y = 0.005f, update_pos_z = 0.15f;
+
+		// private float initial_rot_x = 250f, initial_rot_y = 0f, initial_rot_z = -10f; 
+		// private float final_rot_x = 280f, final_rot_y = 180f, final_rot_z = 10; 
+		// private float update_rot_x = 10f, update_rot_y = 30.0f, update_rot_z = 10f;
+		// private float initial_pos_x = -0.01f, initial_pos_y = -0.005f, initial_pos_z = -0.2f; 
+		// private float final_pos_x = 0.011f, final_pos_y = 0.0051f, final_pos_z = 0.26f; 
+		// private float update_pos_x = 0.01f, update_pos_y = 0.005f, update_pos_z = 0.15f;
 
 		// Real data
 		private float initial_rot_x = -10f, initial_rot_z = 0f, initial_rot_y = -10f; 
 		private float final_rot_x = 10.1f, final_rot_z = 180.1f, final_rot_y = 10.1f; 
+		// private float final_rot_x = 10.1f, final_rot_z = 360.0f, final_rot_y = 10.1f; 
 		private float update_rot_x = 5f, update_rot_z = 7.9f, update_rot_y = 5f;
 		private float initial_pos_x = -0.01f, initial_pos_z = -0.005f, initial_pos_y = -0.15f; 
 		private float final_pos_x = 0.011f, final_pos_z = 0.0051f, final_pos_y = 0.16f; 
 		private float update_pos_x = 0.01f, update_pos_z = 0.005f, update_pos_y = 0.1f;
 
+//		private int waitForMilliSeconds = 200;
       private int waitForMilliSeconds = 150;
+//		private int waitForMilliSeconds = 20;
 
         private float y_offset_up = 21.0f;
 		private float y_offset_down = 100.0f;
 
 		private float x_offset_left = 5.0f;
 
+		// private float y_offset_up = 27.0f;
+		// private float y_offset_down = 100.0f;
+
 		// Standard tests
 
-		private int screenshotIndex = 0; // 23 w train
+		// private int screenshotIndex = 0; // 23 w train
+		// private int screenshotIndex = 22029; // 21 w
+		// private int screenshotIndex = 44058; // 22 w
+		// private int screenshotIndex = 66087; // 23 w
+		// private int screenshotIndex = 88116; // 24 w
+		private int screenshotIndex = 110145; // 25 w
 
 	    // Start is called before the first frame update
 	    void Start()
@@ -73,9 +100,22 @@ namespace UnityVolumeRendering
             var sizeY = activeWindow.position.height;
             var sizeX_plane = sizeX - sizeX * 0.5f;
             var sizeY_plane = sizeY - y_offset_down;
+            // var sizeX_plane = sizeX;
+            // var sizeY_plane = sizeY;
 
+			// Debug.Log(vec2Position);                     
+			// Debug.Log(sizeX);
+			// Debug.Log(sizeY);
+			// Debug.Log(sizeX_plane);
+			// Debug.Log(sizeY_plane);
 			await MyAsyncMethod();
 			
+			//  for(float idx_rot_z = initial_rot_z; idx_rot_z < final_rot_z; idx_rot_z += update_rot_z)
+	    	//  {
+	    	//  	for(float idx_rot_x = initial_rot_x; idx_rot_x < final_rot_x; idx_rot_x += update_rot_x)
+	    	//  	{
+			//      	for(float idx_rot_y = initial_rot_y; idx_rot_y < final_rot_y; idx_rot_y += update_rot_y)
+			//      	{
 	    	for(float idx_rot_y = initial_rot_y; idx_rot_y < final_rot_y; idx_rot_y += update_rot_y)
 	    	{
 	    		for(float idx_rot_x = initial_rot_x; idx_rot_x < final_rot_x; idx_rot_x += update_rot_x)
